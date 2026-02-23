@@ -796,13 +796,18 @@ body {
 ───────────────────────────────────────── */
 .site-footer {
   margin-top: 32px;
+  margin-bottom: 16px;
   font-family: var(--mono);
   font-size: 11.5px;
   font-weight: 300;
   color: var(--txt-muted);
   display: flex;
   align-items: center;
-  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 10px;
+  text-align: center;
+  padding: 0 20px;
   animation: heroReveal 1s .6s both;
 }
 
@@ -831,4 +836,12 @@ body {
   .bubble { font-size: 13.5px; }
 
   .hero-heading { font-size: clamp(42px, 12vw, 70px); }
+
+  .site-footer {
+    font-size: 11px;
+    gap: 4px 8px;
+    margin-top: 24px;
+  }
+
+  .dot-sep { display: none; }
 }
