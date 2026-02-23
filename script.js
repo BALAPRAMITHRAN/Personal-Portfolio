@@ -104,13 +104,13 @@ const DATA = {
 
   contact: {
     email:    "pramithran2005@gmail.com",
-    linkedin: "ADD_LINK",   // ← Replace with your LinkedIn URL
-    github:   "ADD_LINK"    // ← Replace with your GitHub URL
+    linkedin: "https://www.linkedin.com/in/bala-pramithran-r-0320b1295/",   // ← Replace with your LinkedIn URL
+    github:   "https://github.com/BALAPRAMITHRAN?tab=repositories"    // ← Replace with your GitHub URL
   },
 
   resume: {
     label: "Download Resume (PDF)",
-    url:   "#"              // ← Replace with your actual resume PDF URL
+    url:   "Assets/Resume_Final2.pdf"              // ← Replace with your actual resume PDF URL
   }
 };
 
