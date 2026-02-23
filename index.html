@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bala Pramithran R — AI Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Ambient glows -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="noise"></div>
+
+  <!-- TOP BAR -->
+  <header class="topbar">
+    <span class="topbar-name">Bala Pramithran R</span>
+    <div class="topbar-status">
+      <span class="status-dot"></span>
+      <span class="status-label">Available for hire</span>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="page-main">
+
+    <!-- HERO -->
+    <section class="hero">
+   
+      <h1 class="hero-heading">
+        <em>Bala</em> Pramithran
+      </h1>
+      <p class="hero-role">Software Developer &amp; AI enthusiast</p>
+      <p class="hero-tagline">
+        Building intelligent systems that work<br>in the real world — not just in demos.
+      </p>
+    </section>
+
+    <!-- CHAT ISLAND -->
+    <div class="chat-island">
+
+      <!-- Messages -->
+      <div class="chat-messages" id="chatWindow"></div>
+
+      <!-- Suggestion chips -->
+      <div class="chips-bar" id="suggestions">
+        <button class="chip" data-msg="Tell me about you">About</button>
+        <button class="chip" data-msg="Show me your projects">Projects</button>
+        <button class="chip" data-msg="What are your skills?">Skills</button>
+        <button class="chip" data-msg="Tell me about your experience">Experience</button>
+        <button class="chip" data-msg="What is your education?">Education</button>
+        <button class="chip" data-msg="Show me your achievements">Achievements</button>
+        <button class="chip" data-msg="Download resume">Resume</button>
+        <button class="chip" data-msg="How can I contact you?">Contact</button>
+      </div>
+
+      <!-- Input -->
+      <div class="chat-input-area">
+        <div class="input-pill">
+          <input
+            type="text"
+            id="userInput"
+            placeholder="Ask me anything about Bala…"
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <button id="sendBtn" aria-label="Send message">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </div>
+        <p class="input-hint">Hit <kbd>Enter</kbd> to send</p>
+      </div>
+
+    </div>
+    <!-- /chat-island -->
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <span>Bala Pramithran R &copy; 2025</span>
+      <span class="dot-sep">&middot;</span>
+      <span>pramithran2005@gmail.com</span>
+      <span class="dot-sep">&middot;</span>
+      <span>Chennai, India</span>
+    </footer>
+
+  </main>
+
+  <!-- Script loads LAST so all DOM elements exist when JS runs -->
+  <script src="script.js"></script>
+
+</body>
+</html>
