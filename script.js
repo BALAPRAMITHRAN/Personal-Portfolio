@@ -25,7 +25,7 @@ const DATA = {
   role:     "AI Engineer & Full-Stack Developer",
   location: "Chennai, India",
 
-  about: `I'm a pre-final year CS student who builds things that actually work in the real world — not just demos.\n\nI led a production-grade **3D defect detection system** for **Ashok Leyland**, built using point cloud analysis and deep learning. I also currently lead **Coders Forum**, the largest technical community at my college, where we run weekly contests, workshops, and hackathons.\n\nMy focus is on AI systems engineering — bridging the gap between research and deployment.`,
+  about: `I'm a pre-final year CS student who builds things that actually work in the real world — not just demos.\n\nI led a production-grade **3D defect detection system** for **Ashok Leyland**, built using point cloud analysis and deep learning. I also currently lead **Coders Forum**, the largest technical community at my college, where we run weekly contests, workshops, and hackathons.\n\nMy focus is on AI systems engineering, bridging the gap between research and deployment.`,
 
   skills: {
     "Languages":  ["Java", "Python", "SQL"],
@@ -66,7 +66,7 @@ const DATA = {
       title:  "Lead — Coders Forum",
       org:    "Panimalar Engineering College",
       period: "2023 – Present",
-      desc:   "Running the largest technical community in college. Organising weekly coding meetups, competitive programming contests, and hands-on workshops. Mentoring junior students on projects and career growth."
+      desc:   "Running the largest technical community in college. Organising weekly coding meetups, competitive programming contests, and hands-on workshops."
     }
   ],
 
@@ -75,13 +75,13 @@ const DATA = {
       title:  "B.E. Computer Science and Engineering",
       org:    "Panimalar Engineering College, Chennai",
       period: "2023 – 2027",
-      desc:   "Pre-final year. Focused on AI/ML systems, computer vision, and software engineering. Active in hackathons, open-source, and community leadership."
+      desc:   "Pre-final year. Focused on software engineering & AI/ML systems. Active in hackathons, open-source, and community leadership."
     },
     {
       title:  "Higher Secondary (CBSE)",
       org:    "School",
       period: "Completed 2023",
-      desc:   "Scored 72.6%. Built early projects in Java and Python during this period."
+      desc:   "Scored 72.6%. "
     },
     {
       title:  "SSLC (CBSE)",
@@ -347,8 +347,8 @@ function onGreeting() {
   return {
     type: "text",
     content: rand([
-      `Hey! Good to have you here.\n\nI'm a digital version of **Bala Pramithran** — AI engineer and CS student. Ask me about his **projects**, **skills**, or **experience**, and I'll give you the real story.`,
-      `Hello! I'm Bala's AI stand-in — faster at responding, equally proud of the work. Ask me anything.`,
+      `Hey! Good to have you here.\n\nI'm a digital version of **Bala Pramithran**. Ask me about his **projects**, **skills**, or **experience**, and I'll give you the real story.`,
+      `Hello! I'm Bala's AI stand-in faster at responding, equally proud of the work. Ask me anything.`,
       `Hey 👋 Think of me as Bala, but available 24/7. What do you want to know?`
     ])
   };
@@ -437,8 +437,8 @@ function onFallback() {
     type: "text",
     content: rand([
       `I'm not sure I got that. Try asking about my **projects**, **skills**, **experience**, **achievements**, or how to **contact** me.`,
-      `Didn't quite catch that — but I know a lot! Ask about my **AI projects**, **tech stack**, **internship at Infosys**, or **hackathon wins**.`,
-      `That one's outside my knowledge base. Ask about the **Ashok Leyland defect detection project**, **skills**, or **experience** — those I can answer well.`
+      `Didn't quite catch that, but I know a lot! Ask about my **AI projects**, **tech stack**, **internship at Infosys**, or **hackathon wins**.`,
+      `That one's outside my knowledge base. Ask about the **Ashok Leyland defect detection project**, **skills**, or **experience** those I can answer well.`
     ])
   };
 }
